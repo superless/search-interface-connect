@@ -54,7 +54,7 @@
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="trifenix.connect.interfaces" Version="0.8.11" />
+    <PackageReference Include="trifenix.connect.interfaces" Version="0.8.12" />
     <PackageReference Include="trifenix.connect.mdm" Version="0.8.47" />
   </ItemGroup>
 
