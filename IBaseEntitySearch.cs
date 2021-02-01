@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using trifenix.connect.interfaces.log;
+﻿using System.Collections.Generic;
 using trifenix.connect.mdm.entity_model;
-using trifenix.connect.mdm.ts_model;
 
 namespace trifenix.connect.interfaces.search
 {
@@ -16,11 +12,20 @@ namespace trifenix.connect.interfaces.search
     public interface IBaseEntitySearch<T> 
     {
 
-        string UriService { get;  }
+        /// <summary>
+        /// Url del servicio.
+        /// </summary>
+        string UriService { get; }
 
+        /// <summary>
+        /// key del servicio.
+        /// </summary>
         string ServiceKey { get;  }
 
 
+        /// <summary>
+        /// índice del servicio
+        /// </summary>
         string Index { get;  }
         /// <summary>
         /// Añade una colección de EntitySearch a azure search
