@@ -22,10 +22,10 @@ pr: none
 steps:
   - task: SonarQubePrepare@4
     inputs:
-      SonarQube: 'AGROFENIX-Search'
+      SonarQube: 'AGROFENIX-Search-inteface'
       scannerMode: 'MSBuild'
-      projectKey: 'AGROFENIX-Search'
-      projectName: 'AGROFENIX-Search'
+      projectKey: 'AGROFENIX-Search-inteface'
+      projectName: 'AGROFENIX-Search-inteface'
   - task: gitversion/setup@0
     inputs:
       versionSpec: '5.1'
